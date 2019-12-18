@@ -64,6 +64,12 @@
 			</tr>
 			<tr>
 				<td colspan="2" align="center">
+					<input id="remember_me" name="_spring_security_remember_me" type="checkbox"/>
+					<label for="remember_me">记住密码</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
 					<input type="submit" value="登录" />
 				</td>
 			</tr>

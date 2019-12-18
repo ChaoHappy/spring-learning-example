@@ -23,5 +23,7 @@
 	</form>
 	<a href="javascript:formSubmit()">注销登录</a>
 	<a href="<c:url value="/admin" />">后台管理</a>
+	<security:authorize access="hasRole('ROLE_ADMIN')"><a>admin 用户才可以看到</a></security:authorize>
+	<security:authorize url="/admin**"><a>/admin**</a></security:authorize>
 </body>
 </html>
